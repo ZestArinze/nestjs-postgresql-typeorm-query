@@ -1,0 +1,57 @@
+export type CityData = {
+	name: string;
+	continent: string;
+	timezone: string;
+	country: string;
+};
+
+export const citiesData: CityData[] = [
+	{ name: 'New York', continent: 'North America', timezone: 'GMT-5', country: 'United States' },
+	{ name: 'Los Angeles', continent: 'North America', timezone: 'GMT-8', country: 'United States' },
+	{ name: 'Chicago', continent: 'North America', timezone: 'GMT-6', country: 'United States' },
+	{ name: 'Houston', continent: 'North America', timezone: 'GMT-6', country: 'United States' },
+	{ name: 'Toronto', continent: 'North America', timezone: 'GMT-5', country: 'Canada' },
+	{ name: 'Vancouver', continent: 'North America', timezone: 'GMT-8', country: 'Canada' },
+	{ name: 'London', continent: 'Europe', timezone: 'GMT+0', country: 'United Kingdom' },
+	{ name: 'Paris', continent: 'Europe', timezone: 'GMT+1', country: 'France' },
+	{ name: 'Berlin', continent: 'Europe', timezone: 'GMT+1', country: 'Germany' },
+	{ name: 'Rome', continent: 'Europe', timezone: 'GMT+1', country: 'Italy' },
+	{ name: 'Madrid', continent: 'Europe', timezone: 'GMT+1', country: 'Spain' },
+	{ name: 'Lisbon', continent: 'Europe', timezone: 'GMT+0', country: 'Portugal' },
+	{ name: 'Amsterdam', continent: 'Europe', timezone: 'GMT+1', country: 'Netherlands' },
+	{ name: 'Brussels', continent: 'Europe', timezone: 'GMT+1', country: 'Belgium' },
+	{ name: 'Vienna', continent: 'Europe', timezone: 'GMT+1', country: 'Austria' },
+	{ name: 'Stockholm', continent: 'Europe', timezone: 'GMT+1', country: 'Sweden' },
+	{ name: 'Athens', continent: 'Europe', timezone: 'GMT+2', country: 'Greece' },
+	{ name: 'Moscow', continent: 'Europe', timezone: 'GMT+3', country: 'Russia' },
+	{ name: 'Tokyo', continent: 'Asia', timezone: 'GMT+9', country: 'Japan' },
+	{ name: 'Beijing', continent: 'Asia', timezone: 'GMT+8', country: 'China' },
+	{ name: 'Sydney', continent: 'Australia', timezone: 'GMT+11', country: 'Australia' },
+	{ name: 'Auckland', continent: 'Australia', timezone: 'GMT+13', country: 'New Zealand' },
+	{ name: 'Sao Paulo', continent: 'South America', timezone: 'GMT-3', country: 'Brazil' },
+	{ name: 'Buenos Aires', continent: 'South America', timezone: 'GMT-3', country: 'Argentina' },
+	{ name: 'Lima', continent: 'South America', timezone: 'GMT-5', country: 'Peru' },
+	{ name: 'Mexico City', continent: 'North America', timezone: 'GMT-6', country: 'Mexico' },
+	{ name: 'Cairo', continent: 'Africa', timezone: 'GMT+2', country: 'Egypt' },
+	{ name: 'Cape Town', continent: 'Africa', timezone: 'GMT+2', country: 'South Africa' },
+	{ name: 'Nairobi', continent: 'Africa', timezone: 'GMT+3', country: 'Kenya' },
+	{ name: 'Mumbai', continent: 'Asia', timezone: 'GMT+5', country: 'India' },
+	{ name: 'Dubai', continent: 'Asia', timezone: 'GMT+4', country: 'United Arab Emirates' },
+	{ name: 'Istanbul', continent: 'Europe', timezone: 'GMT+3', country: 'Turkey' },
+	{ name: 'Baghdad', continent: 'Asia', timezone: 'GMT+3', country: 'Iraq' },
+	{ name: 'Tel Aviv', continent: 'Asia', timezone: 'GMT+2', country: 'Israel' },
+	{ name: 'Riyadh', continent: 'Asia', timezone: 'GMT+3', country: 'Saudi Arabia' },
+	{ name: 'Kuala Lumpur', continent: 'Asia', timezone: 'GMT+8', country: 'Malaysia' },
+	{ name: 'Singapore', continent: 'Asia', timezone: 'GMT+8', country: 'Singapore' },
+	{ name: 'Seoul', continent: 'Asia', timezone: 'GMT+9', country: 'South Korea' },
+	{ name: 'Manila', continent: 'Asia', timezone: 'GMT+8', country: 'Philippines' },
+	{ name: 'Cebu', continent: 'Asia', timezone: 'GMT+8', country: 'Philippines' },
+	{ name: 'Jakarta', continent: 'Asia', timezone: 'GMT+7', country: 'Indonesia' },
+	{ name: 'Brisbane', continent: 'Australia', timezone: 'GMT+10', country: 'Australia' },
+	{ name: 'Wellington', continent: 'Australia', timezone: 'GMT+13', country: 'New Zealand' },
+	{ name: 'Brisbane', continent: 'Australia', timezone: 'GMT+10', country: 'Australia' },
+	{ name: 'Honolulu', continent: 'North America', timezone: 'GMT-10', country: 'United States' },
+	{ name: 'Anchorage', continent: 'North America', timezone: 'GMT-9', country: 'United States' },
+	{ name: 'Fairbanks', continent: 'North America', timezone: 'GMT-9', country: 'United States' },
+];
+
