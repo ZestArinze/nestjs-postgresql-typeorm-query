@@ -11,6 +11,8 @@ import { SeederModule } from 'src/database/seeder/seeder.module';
 import { WinstonModule, WinstonModuleOptions } from 'nest-winston';
 import { loggerTransports } from 'src/config/logger.config';
 import * as winston from 'winston';
+import { APP_FILTER } from '@nestjs/core';
+import { AllExceptionsFilter } from 'src/filters/all-exceptions-filter';
 
 @Module({
   imports: [
@@ -93,6 +95,12 @@ import * as winston from 'winston';
     SeederModule,
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [
+    AppService,
+    {
+      provide: APP_FILTER,
+      useClass: AllExceptionsFilter,
+    },
+  ],
 })
 export class AppModule { }
